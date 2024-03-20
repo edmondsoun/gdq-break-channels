@@ -56,7 +56,7 @@ export function App() {
 					variant="contained">
 					Test Donation
 				</Button>
-				<Button
+				{/* <Button
 					onClick={() => {
 						const subplan = ['1000', '2000', '3000', 'Prime'][Math.floor(Math.random() * 4)];
 
@@ -79,17 +79,17 @@ export function App() {
 					}}
 					variant="contained">
 					Test Subscription
-				</Button>
-				<Button
+				</Button> */}
+				{/* <Button
 					variant="contained"
 					onClick={() => setBreakChannel((breakChannel + channels.length - 1) % channels.length)}>
 					Previous
 				</Button>
 				<Button variant="contained" onClick={() => setBreakChannel((breakChannel! + 1) % channels.length)}>
 					Next
-				</Button>
+				</Button> */}
 			</Row>
-			<Row>
+			{/* <Row>
 				<Select value={timeZone} onChange={(e) => setTimeZone(e.target.value)}>
 					{timeZones.map((zone, idx) => (
 						<MenuItem key={idx} value={zone}>
@@ -97,7 +97,7 @@ export function App() {
 						</MenuItem>
 					))}
 				</Select>
-			</Row>
+			</Row> */}
 		</>
 	);
 }
